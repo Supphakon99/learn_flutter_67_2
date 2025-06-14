@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 //Step 4: spreate the Home widget into its own file
 // import 'screen/home.dart';
 import 'package:learn_flutter_67_2/screen/home.dart';
+import 'package:learn_flutter_67_2/screen/item.dart';
 
 void main() {
   // Step 1 : appBar and body
@@ -35,7 +36,10 @@ void main() {
           backgroundColor: Colors.pinkAccent,
           centerTitle: true,
         ),
-        body: const Home(),
+        //body: const Home(),
+
+        // Step 8: stateful widget
+        body: Item(),
       ),
     ),
   );
